@@ -1,13 +1,4 @@
 # React + Vite
 
-## Install
-
-```bash
-npm install
-```
-
-## Run
-
-```bash
-npm run dev
-```
+nota:
+Se desplego pero creo que al se un JSON local no se muestra en el pagess
