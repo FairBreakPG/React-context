@@ -1,8 +1,12 @@
-const IconHeart = ({ filled }) => {
+import React from "react";
+
+const IconHeart = ({ filled, onClick }) => {
   return (
     <svg
       width="40px"
       viewBox="0 0 24 24"
+      onClick={onClick} // evento
+      style={{ cursor: "pointer" }}
     >
       <path
         fill={filled ? "red" : "white"}
@@ -11,4 +15,5 @@ const IconHeart = ({ filled }) => {
     </svg>
   );
 };
+
 export default IconHeart;
